@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@font-face { 
+    font-family: News Cycle; 
+    src: url('../fonts/NewsCycle-Regular.eot'); 
+    src: local("News Cycle"), url('../fonts/NewsCycle-Regular.ttf'); 
+} 
+
+html { height: 100%;}
+
+* { padding: 0;}
+
+.row  { width:105%; }
+
+#mainav { background-color: transparent;
+          height: auto;
+          display: inline;
+          width: auto;
+}
+nav ul li.active{
+    background-color: transparent;
+}
+.form_settings
+{ margin: 15px 0 0 0;}
+
+.form_settings p
+{ padding: 0 0 4px 0;}
+
+.form_settings span
+{ float: left; 
+  width: 280px; 
+  text-align: left;
+  text-shadow: none;}
+
+.form_settings input, .form_settings textarea
+{ padding: 2px; 
+  width: 299px; 
+  font: 100% arial; 
+  border: 1px solid #E5E5DB; 
+  background: #FFF; 
+  color: #47433F;}
+
+.form_settings input[type="checkbox"]
+{ padding: 2px 0; 
+  width: 15px; 
+  font: 100% arial; 
+  border: 0; 
+  background: #FFF; 
+  color: #47433F;
+  margin: 28px 0;}
+
+.form_settings .submit
+{ font: 100% arial; 
+  border: 1px solid #FFF; 
+  width: 99px; 
+  margin: 0 0 0 206px; 
+  height: 26px;
+  padding: 2px 0 3px 0;
+  cursor: pointer; 
+  background: #E25506;
+  background: -moz-linear-gradient(#FE9962, #E25506);
+  background: -o-linear-gradient(#FE9962, #E25506);
+  background: -webkit-linear-gradient(#FE9962, #E25506);
+  border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border: 7px 7px 7px 7px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+  color: #FFF;
+  text-shadow: 1px 1px #000;}
+
+.slideshow
+{ width: 650px;
+  height: 300px;
+  margin-top: 20px;
+  float: left;}  
+
+/* styling for the slideshow on the homepage */
+ul.slideshow {
+    list-style: none;
+    width: 650px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    margin: 0;}
+
+ul.slideshow li {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    right: 0;}
+
+ul.slideshow li.show {
+    z-index: 500;}
+
+ul img {
+    border: none;}
+
+#slideshow-caption {
+    width: 650px;
+    height: 42px;
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    z-index: 500;}
+
+#slideshow-caption .slideshow-caption-container {
+    padding: 10px 25px 10px 25px; 
+    background: transparent url(../images/transparent.png) repeat;  
+    z-index: 1000;}
+
+#slideshow-caption p {
+    padding: 0;
+    font: normal 130% arial, sans-serif;
+    color: #FFF;
+    text-shadow: 1px 1px #000;}
+
+.imgcontainer {
+    text-align: center;
+    margin: 12px 0 12px 0;
+}
+
+img.avatar {
+    width: 35%;
+    margin: 8% 0 0 0;
+    border-radius: 50%;
+}
+#usr{
+    margin : 4% 40% 4% 35%;
+}
+
+form {
+    width: 40%;
+    padding-top:2%;
+    background-color: #b3b3b3;
+
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+
+    box-sizing: border-box;
+}
+
+button{
+    background-color: #EDE7F6;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 14%;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.container {
+    padding: 6px;
+    padding-bottom: 12%;
+    text-align: center;
+    margin:6% 20% 8% 20%;
+}
+
+#submitBtn,#file_submit{
+    margin-top: 14%;
+    width:90%;
+    margin-left: 8%;
+    background-color: #4a4750;
+    font-weight: bold;
+    color: #c2bdce;
+}
+
+.btn,.btn-large{
+    margin-top: 14%;
+    background-color: #50406d;
+    font-weight: bold;
+    color: #c2bdce;  
+}
+
+.btn:hover, .btn-large:hover{
+    background-color: #413752; 
+}
+#overview > div.group2 > div.two_third.first > p:nth-child(2){
+
+}
+#uerror,#perror{
+
+  
+}
+
+#usr > div.container > div > div > div > label,#key_gen > div > div,#key_gen > div > input.file,#key_gen > div > div > input,#name,#age,#qual,#dob,#gender,#addr,#mob,#rel,#nation,#email,#file{
+    
+    color:black;
+}
